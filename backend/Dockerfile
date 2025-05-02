@@ -4,7 +4,7 @@ FROM node:20.19.1 AS build
 WORKDIR /usr/src/app
 COPY backend/package*.json ./
 RUN npm install
-COPY backend/ .
+COPY backend/ ./
 RUN npm run build
 
 #Stage 2
