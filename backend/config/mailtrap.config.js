@@ -75,3 +75,5 @@ export const EMAIL_TEMPLATE_VARIABLES = {
   company_info_zip_code: '110091',
   company_info_country: 'India',
 };
+
+// test 1
